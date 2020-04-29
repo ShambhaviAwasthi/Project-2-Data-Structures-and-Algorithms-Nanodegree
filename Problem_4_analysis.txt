@@ -1,0 +1,10 @@
+SHAMBHAVI AWASTHI
+DATA STRUCTURES AND ALGORITHMS NANODEGREE
+PROJECT 2 - PROBLEMS VS ALGORITHMS
+
+Problem 4: Dutch national Flag Problem
+Given an input array consisting on only 0, 1, and 2, sort the array in a single traversal. You're not allowed to use any sorting function that Python provides.
+Note: O(n) does not necessarily mean single-traversal. For e.g. if you traverse the array twice, that would still be an O(n) solution but it will not count as single traversal.
+
+Analysis:
+I created three lists to store 0,1 and 2 respectively and later merge them together to give output list. Space complexity of the code is O(n).

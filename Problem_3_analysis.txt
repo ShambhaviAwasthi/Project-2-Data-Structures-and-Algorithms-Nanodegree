@@ -2,9 +2,9 @@ SHAMBHAVI AWASTHI
 DATA STRUCTURES AND ALGORITHMS NANODEGREE
 PROJECT 2 - PROBLEMS VS ALGORITHMS
 
-Problem 3: Dutch national Flag Problem
-Given an input array consisting on only 0, 1, and 2, sort the array in a single traversal. You're not allowed to use any sorting function that Python provides.
-Note: O(n) does not necessarily mean single-traversal. For e.g. if you traverse the array twice, that would still be an O(n) solution but it will not count as single traversal.
+Problem 3: Rearrange Array Elements so as to form two number such that their sum is maximum. Return these two numbers. You can assume that all array elements are in the range [0, 9]. The number of digits in both the numbers cannot differ by more than 1. You're not allowed to use any sorting function that Python provides and the expected time complexity is O(nlog(n)).
+for e.g. [1, 2, 3, 4, 5]
+The expected answer would be [531, 42]. Another expected answer can be [542, 31]. In scenarios such as these when there are more than one possible answers, return any one.
 
 Analysis:
-I created three lists to store 0,1 and 2 respectively and later merge them together to give output list. Space complexity of the code is the length of input and time complexity is O(n).
+The time complexity as mentioned in the question is O(n log n) which is the time complexity of merge sort which is used to sort the given unsorted array. Space complexity is equal to O(n).

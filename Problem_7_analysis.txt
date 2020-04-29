@@ -1,0 +1,8 @@
+SHAMBHAVI AWASTHI
+DATA STRUCTURES AND ALGORITHMS NANODEGREE
+PROJECT 2 - PROBLEMS VS ALGORITHMS
+
+Problem 7: HTTP Router
+
+Analysis:
+The time complexity depends upon the length of the path so it is O(n * m) where n is the number of url and m is the length of longest url seperated by slashes. The space complexity depends upon the sub paths also so it is O(n)
